@@ -1,0 +1,5 @@
+An extension of the {@link java.util.List} interface for use in JSPs,
+to allow display of a paginated list.
+
+For example, the JSTL construct <c:forEach> can be populated with this type,
+to allow simple instantiation of the necessary variables.
