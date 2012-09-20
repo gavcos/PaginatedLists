@@ -15,7 +15,7 @@
         <tr>
             <td>${currentPage}&nbsp;/&nbsp;${noPages}</td> 
         </tr>
-        <c:forEach var="person" items="people" begin="startIndex" end="endIndex" varStatus="status">
+        <c:forEach var="person" items="${people}" begin="${startIndex}" end="${endIndex}" varStatus="status">
             <tr>
                 <td>${person.name}</td>
                 <td>${person.firstName}</td>
